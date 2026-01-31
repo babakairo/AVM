@@ -9,9 +9,9 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gradient-to-b from-white via-blue-50/30 to-white">
       {/* Hero */}
-      <section className="bg-gradient-to-br from-amber-50 to-orange-50 py-16 lg:py-24">
+      <section className="bg-gradient-to-br from-blue-50 to-indigo-50 py-16 lg:py-24">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-5xl">

@@ -106,7 +106,7 @@ export default function ServicesPage() {
   ]
 
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-gradient-to-b from-white via-amber-50/30 to-white">
       {/* Hero */}
       <section className="bg-gradient-to-br from-amber-50 to-orange-50 py-16 lg:py-24">
         <div className="container mx-auto px-4 lg:px-8">
@@ -122,7 +122,7 @@ export default function ServicesPage() {
       </section>
 
       {/* Services Detail */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gradient-to-b from-white to-orange-50/40">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="space-y-20">
             {services.map((service, index) => {

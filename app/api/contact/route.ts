@@ -3,7 +3,13 @@ import { prisma } from '@/lib/prisma'
 import { contactFormSchema } from '@/lib/validations'
 import { Resend } from 'resend'
 
-const resend = new Resend(process.env.RESEND_API_KEY)
+function getResend() {
+  const apiKey = process.env.RESEND_API_KEY
+  if (!apiKey) {
+    throw new Error('RESEND_API_KEY is not configured')
+  }
+  return new Resend(apiKey)
+}
 
 export async function POST(request: NextRequest) {
   try {
@@ -20,6 +26,7 @@ export async function POST(request: NextRequest) {
     // Send email notification to admin
     if (process.env.RESEND_API_KEY && process.env.ADMIN_EMAIL) {
       try {
+        const resend = getResend()
         await resend.emails.send({
           from: 'AVM Crating <noreply@yourdomain.com>',
           to: process.env.ADMIN_EMAIL,

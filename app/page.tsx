@@ -110,7 +110,7 @@ export default function Home() {
       </section>
 
       {/* Services Highlight */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gradient-to-b from-white to-amber-50">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
@@ -145,7 +145,7 @@ export default function Home() {
       </section>
 
       {/* How It Works */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gradient-to-br from-amber-50 via-orange-50 to-amber-50">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
@@ -172,7 +172,7 @@ export default function Home() {
       </section>
 
       {/* Trust Badges */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gradient-to-r from-blue-50 to-indigo-50">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="grid grid-cols-1 gap-8 md:grid-cols-3 text-center">
             <div className="flex flex-col items-center">
@@ -195,7 +195,7 @@ export default function Home() {
       </section>
 
       {/* Industries */}
-      <section className="py-16 bg-gray-50">
+      <section className="py-16 bg-gradient-to-b from-slate-50 to-gray-50">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
@@ -226,7 +226,7 @@ export default function Home() {
       </section>
 
       {/* Gallery Preview */}
-      <section className="py-16 bg-white">
+      <section className="py-16 bg-gradient-to-br from-teal-50 to-cyan-50">
         <div className="container mx-auto px-4 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 sm:text-4xl">
