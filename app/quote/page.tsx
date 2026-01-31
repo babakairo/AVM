@@ -110,7 +110,7 @@ export default function QuotePage() {
               Request a Quote
             </h1>
             <p className="text-lg text-gray-600">
-              Fill out the form below and we\'ll respond within hours with a detailed quote.
+              Fill out the form below and we&apos;ll respond within hours with a detailed quote.
             </p>
           </div>
 

@@ -47,7 +47,7 @@ export default function IndustriesPage() {
     {
       icon: '🏠',
       title: 'Moving / Residential',
-      description: 'Whether you\'re relocating across the country or moving treasured items, we provide professional crating for residential clients.',
+      description: 'Whether you&apos;re relocating across the country or moving treasured items, we provide professional crating for residential clients.',
       challenges: [
         'Fragile family heirlooms',
         'Large furniture pieces',
@@ -90,7 +90,7 @@ export default function IndustriesPage() {
               Industries We Serve
             </h1>
             <p className="mt-6 text-xl text-gray-600">
-              Specialized crating and packaging solutions tailored to your industry\'s unique requirements.
+              Specialized crating and packaging solutions tailored to your industry&apos;s unique requirements.
             </p>
           </div>
         </div>
@@ -188,7 +188,7 @@ export default function IndustriesPage() {
                 <CardContent>
                   <p className="text-gray-700">
                     Absolutely! On-site packaging is one of our specialties. We bring all necessary 
-                    materials and equipment directly to your location — whether it\'s a factory floor, 
+                    materials and equipment directly to your location — whether it&apos;s a factory floor, 
                     warehouse, or residence — throughout Metro-Atlanta.
                   </p>
                 </CardContent>

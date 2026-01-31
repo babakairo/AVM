@@ -32,14 +32,14 @@ export default function AboutPage() {
               Our Mission
             </h2>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
-              At AVM Packaging and Crating LLC, we\'re dedicated to protecting what matters most to 
-              you. Whether it\'s industrial machinery, priceless artwork, or household treasures, we 
+              At AVM Packaging and Crating LLC, we&apos;re dedicated to protecting what matters most to 
+              you. Whether it&apos;s industrial machinery, priceless artwork, or household treasures, we 
               bring expert craftsmanship and reliable service directly to your doorstep.
             </p>
             <p className="text-lg text-gray-700 leading-relaxed">
               Based in Locust Grove, Georgia, we serve the entire Metro-Atlanta area with mobile, 
               on-site crating and packaging services. Our team understands that every shipment is 
-              unique, and we\'re committed to providing customized solutions that ensure your items 
+              unique, and we&apos;re committed to providing customized solutions that ensure your items 
               arrive safely at their destination.
             </p>
           </div>
@@ -74,7 +74,7 @@ export default function AboutPage() {
               <CardContent>
                 <p className="text-gray-700">
                   Our experienced professionals know how to handle everything from delicate antiques 
-                  to heavy industrial equipment. We\'re trained in the latest packing techniques and safety standards.
+                  to heavy industrial equipment. We&apos;re trained in the latest packing techniques and safety standards.
                 </p>
               </CardContent>
             </Card>
@@ -130,7 +130,7 @@ export default function AboutPage() {
                       <li>• Fayetteville</li>
                     </ul>
                     <p className="mt-4 text-sm text-gray-600">
-                      Don\'t see your city listed? Contact us — we may still be able to serve your location!
+                      Don&apos;t see your city listed? Contact us — we may still be able to serve your location!
                     </p>
                   </div>
                 </div>
@@ -163,7 +163,7 @@ export default function AboutPage() {
                   🛡️ Safe & Secure
                 </h3>
                 <p className="text-gray-700">
-                  Your items\' safety is our top priority. We use proven techniques and quality materials 
+                  Your items&apos; safety is our top priority. We use proven techniques and quality materials 
                   to ensure maximum protection during transport and storage.
                 </p>
               </div>

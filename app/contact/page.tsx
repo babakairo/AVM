@@ -61,7 +61,7 @@ export default function ContactPage() {
             Contact Us
           </h1>
           <p className="text-lg text-gray-600">
-            Get in touch with our team — we\'re here to help!
+            Get in touch with our team — we&apos;re here to help!
           </p>
         </div>
 
@@ -153,7 +153,7 @@ export default function ContactPage() {
                 </CardHeader>
                 <CardContent className="text-center space-y-4">
                   <p className="text-gray-700">
-                    We\'ve received your message and will get back to you as soon as possible.
+                    We&apos;ve received your message and will get back to you as soon as possible.
                   </p>
                   <Button 
                     onClick={() => setIsSubmitted(false)}
@@ -168,7 +168,7 @@ export default function ContactPage() {
                 <CardHeader>
                   <CardTitle>Send Us a Message</CardTitle>
                   <CardDescription>
-                    Fill out the form below and we\'ll respond promptly.
+                    Fill out the form below and we&apos;ll respond promptly.
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
