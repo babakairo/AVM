@@ -1,0 +1,70 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model QuoteLead {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  // Contact Information
+  name      String
+  phone     String
+  email     String
+
+  // Location & Service
+  pickupLocation String
+  onSiteNeeded   Boolean @default(false)
+
+  // Item Details
+  itemDescription String
+  length          Float?
+  width           Float?
+  height          Float?
+  weight          Float?
+  fragile         Boolean @default(false)
+
+  // Service Requirements
+  heatTreated        Boolean @default(false)
+  vacuumPackaging    Boolean @default(false)
+  destinationType    String  // domestic, international, ocean-container
+  timeline           String?
+
+  // Attachments
+  photoUrls String[] // Array of uploaded photo URLs
+
+  // Admin tracking
+  status    String   @default("new") // new, contacted, quoted, closed
+  notes     String?
+
+  @@index([createdAt])
+  @@index([status])
+  @@map("quote_leads")
+}
+
+model ContactLead {
+  id        String   @id @default(cuid())
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  name    String
+  email   String
+  phone   String?
+  subject String?
+  message String
+
+  status String @default("new") // new, responded, closed
+  notes  String?
+
+  @@index([createdAt])
+  @@index([status])
+  @@map("contact_leads")
+}
